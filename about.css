@@ -1,0 +1,123 @@
+body {
+	background-image: url("about-images/headshot_4.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right top;
+	background-size: 32% 100%;
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+*:focus {
+	outline: none;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#header {
+	top: 0;
+	left: 0;
+}
+
+.nav {
+	list-style-type: none;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+
+.nav li{
+	display: inline-block;
+	padding: 20px;
+	font-family: 'Oswald', sans-serif;
+ 	text-transform: uppercase;
+}
+
+.selected {
+	color: #334621;
+	font-size: 40px;
+}
+
+.unselected{
+	font-size: 25px;
+	color: #816644;
+}
+
+#footer {
+	font-family: 'Oswald', sans-serif;
+ 	text-transform: uppercase;
+ 	font-size: 15px;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	padding-left: 20px;
+	width: 100%;
+	background-color: white;
+	height: 3vh;
+}
+
+#about-section {
+	display: inline-block;
+	padding-bottom: 3vh;
+}
+
+#content {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	font-color: #334621;
+	font-size: 25px;
+	padding-right: 34%;
+	float: right;
+	width: 35%;
+	display: inline-block;
+}
+
+#content p {
+	padding: 1.5vh;
+}
+
+#side-notes {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	font-color: #334621;
+	font-size: 17.5px;
+	width: 16%;
+	padding: 0;
+	margin: 0;
+	padding-left: 14%;
+	display: inline-block;
+	position: fixed;
+}
+
+#side-notes h3 {
+	color: #a9a9a9;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 5px;
+	font-size: 15px;
+	padding-top: 20%;
+}
+
+#side-notes ul {
+	list-style-type: none;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+
+#side-notes ul li {
+	padding: 1%;
+}

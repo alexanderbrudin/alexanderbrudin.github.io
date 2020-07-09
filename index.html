@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="index.css">
+		<title>Alex Rudin | Projects</title>
+		<link rel="icon" type="image/jpg" href="general-images/Rudin-Logo-removebg-preview.png">
+		<link href="https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,400,500,600,700" rel="stylesheet">
+	</head>
+	<body onload="initialProjects()">
+		<div id="project-details" class="item container">
+			<div id="exit" onclick="toggleDisplay()"><p>&times</p></div>
+			<div id="project-content"></div>
+		</div>
+		<div id="page-content" class="container">
+			<div id="header" class="item">
+				<ul class="nav">
+					<li class="selected"><a href="./index.html">Alex Rudin</a></li>
+					<li class="unselected"><a href="./about.html">About</a></li>
+				</ul>
+			</div>
+			<div id="page-body" class="item container">
+				<div id="search-content" class="item container">
+					<div id="search-header" class="item">Search my projects by skill...</div>
+					<div id="tags-line" class="item">
+						<ul id="tags">
+							<li style="background-color:aqua" onclick="tagActive(this)">#cad</li>
+							<li style="background-color:aquamarine" onclick="tagActive(this)">#programming</li>
+							<li style="background-color:moccasin" onclick="tagActive(this)">#prototyping</li>
+							<li style="background-color:cadetblue" onclick="tagActive(this)">#data-science</li>
+							<li style="background-color:cornflowerblue" onclick="tagActive(this)">#machine-learning</li>
+							<!--<li style="background-color:coral" onclick="tagActive(this)">#woodworking</li>-->
+							<li style="background-color:silver" onclick="tagActive(this)">#3d-printing</li>
+							<li style="background-color:cornsilk" onclick="tagActive(this)">#laser-cutting</li>
+							<li style="background-color:darksalmon" onclick="tagActive(this)">#reverse-engineering</li>
+							<li style="background-color:violet" onclick="tagActive(this)">#mechatronics</li>
+							<li style="background-color:gold" onclick="tagActive(this)">#product-development</li>
+							<li style="background-color:whitesmoke" onclick="tagActive(this)">#DFX</li>
+							<li style="background-color:fuchsia" onclick="tagActive(this)">#DFM</li>
+							<li style="background-color:honeydew" onclick="tagActive(this)">#FEA</li>
+							<li style="background-color:lightcyan" onclick="tagActive(this)">#GDT</li>
+						</ul>
+					</div>
+					<div id="display-search"></div>
+				</div>
+			</div>
+			<div id="footer" class="item">
+				<p>Designed and Developed by Alex Rudin 2020</p>
+			</div>
+		</div>
+	<script src="index.js"></script>
+	</body>
+</html>
