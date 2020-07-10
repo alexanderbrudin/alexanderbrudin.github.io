@@ -1,12 +1,43 @@
 body {
-	background-image: url("about-images/headshot_4.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: right top;
-	background-size: 32% 100%;
 	margin: 0;
 	padding: 0;
 	max-width: 100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	body{
+		background-image: none;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	body{
+		background-image: none;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	body{
+		background-image: url("about-images/headshot_4.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: right top;
+		background-size: 32% 100%;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	body{
+		background-image: url("about-images/headshot_4.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: right top;
+		background-size: 32% 100%;
+	}
 }
 
 * {
