@@ -160,9 +160,7 @@ a:hover {
 
 #display-search div {
 	padding: 1.5vh;
-	box-shadow: 0 0 0 1pt black;
 	width: 40%;
-	border-radius: 2%;
 	margin: 10px;
 	margin-left: auto;
 	margin-right: auto;
@@ -193,11 +191,11 @@ a:hover {
 }
 
 .left{
-	text-align: left;
+	background-color: #b3b3b3;
 }
 
 .right{
-	text-align: right;
+	background-color: #999999;
 }
 
 #project-content {
