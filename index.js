@@ -55,6 +55,18 @@ var projects = [
 		'details': 'This exploration analyzed the end-of-season rankings and statistics for every Major League Baseball team over the past ten seasons. Early analysis centered on data analysis of which teams were consistently successful this past decade, while recent work has moved toward finding a deeper understanding in team-by-team statistics through a machine learning approach. I applied a clustering algorithm to the teams to find commonalities between successful and unsuccessful teams, and I applied a regressor to estimate the team rankings and analyze feature importance. ',
 		'tags': ['machine-learning', ' data-science', ' programming'],
 		'images':['./project-images/baseball1.png', './project-images/baseball2.png', './project-images/baseball3.png']
+	},{
+		'name': 'Control and Simulation of non-Holonomic Robot Behaviors',
+		'context': 'Autonomous Mobile Robotics Course Project',
+		'details': 'Through both individual work and in a team of 3, this project used ROS with Python to model and tune control algorithms for go-to-goal, follow-a-wall, and follow-a-path behaviors. Additionally, this project used MATLAB to model a potential field obstacle avoidance algorithm and simulated behavior for both holonomic and non-holonomic vehicle dynamics.',
+		'tags': ['programming', 'mechatronics'],
+		'images': ['./project-images/Robot1.png', './project-images/Robot2.png', './project-images/Robot3.png', './project-images/Robot4.png', './project-images/Robot5.png']
+	},{
+		'name': 'Machine Learning Analysis of Handwashing Motion',
+		'context': 'Machine Learning Course Project',
+		'details': 'This project involved data collection of both hand washing and non-handwashing data on a smart watch running an Arduino processor. Based on the IMU data from the smart watch, a decision tree classifier was built in WEKA to evaluate, based on the parameters of the 6 DOF IMU, whether or not a given motion could be hand washing.',
+		'tags': ['programming'],
+		'images': []
 	}
 ];
 
