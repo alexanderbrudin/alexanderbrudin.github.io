@@ -115,7 +115,6 @@ function addProjects(projectList) {
 			divNode.appendChild(hNode);
 			divNode.appendChild(pNode);
 			divNode.onclick = function() { toggleDisplay(this); };
-			if (i%2==0) { divNode.className = "left"; } else { divNode.className = "right"; }
 			document.getElementById("display-search").appendChild(divNode);
 		}
 	}
@@ -143,7 +142,7 @@ function toggleDisplay(el) {
 		hNode.appendChild(hText);
 
 		cSpan = document.createElement("span");
-		csText = document.createTextNode("Context:")
+		csText = document.createTextNode("Context")
 		cSpan.appendChild(csText);
 
 		cNode = document.createElement("p");
@@ -151,7 +150,7 @@ function toggleDisplay(el) {
 		cNode.appendChild(cText);
 
 		sSpan = document.createElement("span");
-		ssText = document.createTextNode("Skills:")
+		ssText = document.createTextNode("Skills")
 		sSpan.appendChild(ssText);
 
 		sNode = document.createElement("p");
@@ -159,7 +158,7 @@ function toggleDisplay(el) {
 		sNode.appendChild(sText);
 
 		dSpan = document.createElement("span");
-		dsText = document.createTextNode("Details:")
+		dsText = document.createTextNode("Details")
 		dSpan.appendChild(dsText);
 
 		dNode = document.createElement("p");
