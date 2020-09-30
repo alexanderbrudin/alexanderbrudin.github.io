@@ -65,7 +65,7 @@ var projects = [
 		'name': 'Machine Learning Analysis of Handwashing Motion',
 		'context': 'Machine Learning Course Project',
 		'details': 'This project involved data collection of both hand washing and non-handwashing data on a smart watch running an Arduino processor. Based on the IMU data from the smart watch, a decision tree classifier was built in WEKA to evaluate, based on the parameters of the 6 DOF IMU, whether or not a given motion could be hand washing.',
-		'tags': ['programming'],
+		'tags': ['programming', 'machine-learning'],
 		'images': []
 	}
 ];
