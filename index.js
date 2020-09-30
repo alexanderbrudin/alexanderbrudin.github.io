@@ -60,7 +60,7 @@ var projects = [
 		'context': 'Autonomous Mobile Robotics Course Project',
 		'details': 'Through both individual work and in a team of 3, this project used ROS with Python to model and tune control algorithms for go-to-goal, follow-a-wall, and follow-a-path behaviors. Additionally, this project used MATLAB to model a potential field obstacle avoidance algorithm and simulated behavior for both holonomic and non-holonomic vehicle dynamics.',
 		'tags': ['programming', 'mechatronics'],
-		'images': ['./project-images/Robot1.png', './project-images/Robot2.png', './project-images/Robot3.png', './project-images/Robot4.png', './project-images/Robot5.png']
+		'images': ['./project-images/Robot1.jpg', './project-images/Robot2.jpg', './project-images/Robot3.jpg', './project-images/Robot4.jpg', './project-images/Robot5.jpg']
 	},{
 		'name': 'Machine Learning Analysis of Handwashing Motion',
 		'context': 'Machine Learning Course Project',
