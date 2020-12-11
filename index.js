@@ -59,14 +59,32 @@ var projects = [
 		'name': 'Control and Simulation of non-Holonomic Robot Behaviors',
 		'context': 'Autonomous Mobile Robotics Course Project',
 		'details': 'Through both individual work and in a team of 3, this project used ROS with Python to model and tune control algorithms for go-to-goal, follow-a-wall, and follow-a-path behaviors. Additionally, this project used MATLAB to model a potential field obstacle avoidance algorithm and simulated behavior for both holonomic and non-holonomic vehicle dynamics.',
-		'tags': ['programming', 'mechatronics'],
+		'tags': ['programming', 'robotics'],
 		'images': ['./project-images/Robot1.jpg', './project-images/Robot2.jpg', './project-images/Robot3.jpg', './project-images/Robot4.jpg', './project-images/Robot5.jpg']
 	},{
 		'name': 'Machine Learning Analysis of Handwashing Motion',
 		'context': 'Machine Learning Course Project',
-		'details': 'This project involved data collection of both hand washing and non-handwashing data on a smart watch running an Arduino processor. Based on the IMU data from the smart watch, a decision tree classifier was built in WEKA to evaluate, based on the parameters of the 6 DOF IMU, whether or not a given motion could be hand washing.',
+		'details': 'This project involved data collection of both hand washing and non-handwashing data on an Android smart watch. Based on the IMU data from the smart watch, a decision tree classifier was built in WEKA to evaluate, based on the parameters of the 6 DOF IMU, whether or not a given motion could be hand washing.',
 		'tags': ['programming', 'machine-learning'],
 		'images': []
+	},{
+		'name': 'Construction of Kalman Filter and Particle Filter',
+		'context': 'Autonomous Mobile Robotics Course Project',
+		'details': "This project used MATLAB to build a Kalman Filter and to model and fuse two GPS sensors and controller input with Gaussian noise and estimate a robot's position for go-to-goal behavior. I also used MATLAB to build a Particle Filter which utilized 6 landmarks in the environment to localize a robot's position in 10 iterations. The filter was based on a LIDAR-type sensor which could determine the distance to each landmark, and trials were run with a 30m limit and with no limit on the sensor range.",
+		'tags': ['programming', 'robotics'],
+		'images': ['./project-images/KF_MeasurementAndEstimate.jpg', './project-images/KF_Pos,Vel,Dist.jpg', './project-images/PF_NoLim.jpg', './project-images/PF_WithLim.jpg']
+	},{
+		'name': 'Identification of Trumpet Hand Positions using Machine Learning Techniques',
+		'context': 'Machine Learning Course Project',
+		'details': 'This project involved data collection of six Trumpet hand positions on an Android smart watch. An automated data cleaning pipeline was built in Python for feature extraction from the accelerometer and gyroscope data extracted from the watch. The extracted features were processed with a WEKA decision tree classifier, random forest classifier, and SVM and achieved 96% accuracy with both the decision tree and the random forest. To reduce time and complexity of the machine learning system, a feature selection algorithm was built in java to reduce the initial 24 features down to the most pertinent four features, which matched 96% accuracy but with much lower time and memory complexity.',
+		'tags': ['programming', 'machine-learning'],
+		'images': []
+	},{
+		'name': 'Estimation and Trajectory Planning for a Frogger Robot',
+		'context': 'Autonomous Mobile Robotics Course Project',
+		'details': "This project used ROS with Python to process and fuse LiDAR data to estimate positions and velocities of an arbitrary number of traffic robots in the environment. For trajectory planning, to move safely from start to goal, we utilized an MPC-style potential field obstacle avoidance algorithm to plan the trajectory of the ego robot based on the predicted positions of the traffic robots. Additionally, we used Gazebo and rviz to construct a world for the ego robot with random motions for an arbitrary number of traffic robots and to collect and visualize data from each run of the ego robot.",
+		'tags': ['programming', 'robotics'],
+		'images': ['sample_frogger_game.png''robot_estimation.png', 'timevsstops.png', 'robot_estimated_error.png']
 	}
 ];
 
