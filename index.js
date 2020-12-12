@@ -84,7 +84,7 @@ var projects = [
 		'context': 'Autonomous Mobile Robotics Course Project',
 		'details': "This project used ROS with Python to process and fuse LiDAR data to estimate positions and velocities of an arbitrary number of traffic robots in the environment. For trajectory planning, to move safely from start to goal, we utilized an MPC-style potential field obstacle avoidance algorithm to plan the trajectory of the ego robot based on the predicted positions of the traffic robots. Additionally, we used Gazebo and rviz to construct a world for the ego robot with random motions for an arbitrary number of traffic robots and to collect and visualize data from each run of the ego robot.",
 		'tags': ['programming', 'robotics'],
-		'images': ['sample_frogger_game.png''robot_estimation.png', 'timevsstops.png', 'robot_estimated_error.png']
+		'images': ['sample_frogger_game.png','robot_estimation.png', 'timevsstops.png', 'robot_estimated_error.png']
 	}
 ];
 
